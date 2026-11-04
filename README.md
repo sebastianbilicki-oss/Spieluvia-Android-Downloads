@@ -1,46 +1,53 @@
 # Spieluvia – Android-Downloads
 
-Hier findest du die aktuelle signierte Android-Testversion und die Updateinformationen. Zum Herunterladen ist keine GitHub-Anmeldung erforderlich.
+Hier findest du die aktuelle signierte Android-Testversion und die Updateinformationen. Zum Herunterladen ist **keine GitHub-Anmeldung** erforderlich.
 
-## Aktuell: Testversion 8
+## Aktuell: Testversion 9
 
 **[APK herunterladen](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/raw/refs/heads/main/aktuell/Spieluvia.apk)** · **[ZIP herunterladen](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/raw/refs/heads/main/aktuell/Spieluvia-Android.zip)**
 
-Android ab Version 8 (API 26). Version `0.8.0-preview+67bde12142a7`, Versionscode **8**. Dies ist eine Vorschau mit echten Zeitbegrenzungsfunktionen, keine reine Demo und keine Google-Play-Freigabe. Neue Funktionen brauchen weiterhin Tests auf echten Geräten.
+Android ab Version 8/API26, Version `0.9.0-preview+0d3facab8e0e`, Versionscode **9**. Vorschau mit echten Zeitbegrenzungsfunktionen, keine reine Demo und keine Google-Play-Freigabe. Neue Funktionen brauchen weiterhin Tests auf echten Geräten.
 
-### Installation und Updates
+### Einmal auf V9 wechseln
 
-1. APK herunterladen oder ZIP entpacken und die enthaltene `Spieluvia.apk` öffnen.
-2. Installation in Android bewusst bestätigen. Nur für die gewählte vertrauenswürdige Downloadquelle die nötige Installationsfreigabe verwenden.
-3. Bei bereits installierter Spieluvia-App **als Update installieren, vorher nicht deinstallieren und keine App-Daten löschen**. Bei gleicher App-Kennung und Signatur bleiben Eltern-PIN, Regeln und Verbrauch erhalten.
+1. APK herunterladen oder ZIP entpacken und `Spieluvia.apk` öffnen.
+2. **Als Update installieren, vorher nicht deinstallieren und keine App-Daten löschen.** Bei gleicher Paketkennung und Signatur bleiben Eltern-PIN, Regeln und Verbrauch erhalten.
+3. V8 und ältere Versionen haben keinen Updatecheck. Deshalb ist der erste Wechsel auf V9 manuell nötig.
 
-In Testversion 8 ist **noch kein Updatecheck eingebaut**. Neue Versionen werden aktuell über diese Seite heruntergeladen. Die Versionsdatei ist für die spätere Updatefunktion vorbereitet; sie installiert nichts selbst. Android kann eine Installationsbestätigung verlangen.
+### Updates ab V9
 
-### Neu in Testversion 8
+V9 prüft bei Appstart/Rückkehr automatisch die öffentliche Versionsdatei. Schnelle Rückkehrvorgänge sind auf eine Abfrage pro 60 Sekunden begrenzt. Unter **App-Updates** lässt sich das abschalten oder manuell prüfen.
 
-- Sperrbutton nur im passenden freigegebenen Elternkontext.
-- Ganzflächiger Hintergrund, eigene Bilder und 16 Design-Farbrollen.
-- Skins mit Vorschau speichern, exportieren und importieren.
-- Ratgeber direkt offline mit 23 Publikationen, Themenfilter und antippbaren Quellen.
+Nur eine höhere passende Version wird angeboten. **Der APK-Download startet erst nach Antippen.** Danach Paket, Version, Dateigröße, Prüfsumme und erwarteten Signierer kontrollieren. „Geprüftes Update installieren“ übergibt die Datei bewusst an Android. Falls nötig, die Installationsfreigabe für Spieluvia in Android erlauben, zurückkommen und erneut Installieren antippen. Android prüft und bestätigt die eigentliche Installation. **Keine stille oder erzwungene Installation.** Ein fehlgeschlagener Updateabruf stoppt die Aufsicht nicht.
 
-Die Zeitmessung benötigt die bewusst erteilten Freigaben für Nutzungszugriff, Bedienungshilfe und sichtbare Benachrichtigungen. Ohne sie ist keine zuverlässige Aufsicht möglich. Android-Einstellungen, Telefon und Startseite bleiben erreichbar; die App bietet keine manipulationsfeste Deinstallations-/Stoppsperre. Kein Werksreset oder Device Owner für diesen Test nötig.
+Bei der Versionsprüfung erhält GitHub die Netzwerkadresse und übliche Verbindungsdaten; keine Geräte-ID, PIN, Regeln oder Nutzungsdaten. Kein Anmeldetoken wird verwendet. APKs liegen im privaten Updatecache. Die neue Installationsberechtigung dient nur eigenen App-Updates; nur diese geprüfte APK erhält vorübergehenden Lesezugriff für den Android-Installer. Kein Hintergrunddienst oder Werksreset nötig.
 
-## Nachvollziehbare Downloads
+### Neu in V9
 
+- Updateprüfung bei Appstart aus der öffentlichen Spieluvia-Downloadablage; abschaltbar.
+- Neue passende Versionen anzeigen und nach Antippen herunterladen, mit Fortschritt und Abbruch.
+- Größe, SHA-256, Paket, Versionscode/-name und gepinnten Signierer prüfen.
+- Geprüfte APK bewusst an Android übergeben; Installationsfreigabe und Bestätigung bleiben erforderlich.
+- Bisherige Skins, Offline-Ratgeber und Zeitbegrenzung bleiben enthalten.
+
+Die Zeitmessung benötigt die bewusst erteilten Freigaben für Nutzungszugriff, Bedienungshilfe und sichtbare Benachrichtigungen. Telefon, Einstellungen und Startseite bleiben erreichbar; die App bietet keine manipulationsfeste Deinstallations-/Stoppsperre. Die neue Updatefunktion ist von der lokalen Aufsicht getrennt.
+
+## Downloads und Prüfdaten
+
+- [Archiv Testversion 9](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/tree/main/downloads/android-test-9)
 - [Archiv Testversion 8](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/tree/main/downloads/android-test-8)
 - [Versionsdatei latest.json](https://raw.githubusercontent.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/main/latest.json)
-- [SHA-256 der aktuellen APK](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/raw/refs/heads/main/aktuell/Spieluvia.apk.sha256)
-- [Prüfdaten](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/blob/main/downloads/android-test-8/verification.json)
+- [Aktuelle APK-Prüfsumme](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/raw/refs/heads/main/aktuell/Spieluvia.apk.sha256)
+- [Prüfdaten V9](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/blob/main/downloads/android-test-9/verification.json)
 - [Änderungsverlauf](CHANGELOG.md)
 
-APK SHA-256: `47a4795b6a0002dd94c44b03b64c443cda5b256d5982b8b1af44edae365c3e3f`.
-
+APK SHA-256: `888def7cb5f2a16b74f4e89d649ffd70b047abef9af0fe3d4065fac50ed0eb87`.
 Signierzertifikat SHA-256: `cea146b07d0283bfac7696366e72fe1f8ffc7a865abdc128a538d5bc3639c716`.
 
-Die APK wurde unverändert mit dem bisherigen Android-Testschlüssel signiert; Versionscode und Paketkennung `de.spieluvia.android` passen zu bisherigen Tests. 106 automatisierte Androidfälle, Core-Regressionsprüfung und technische Policy-Prüfungen bestanden. Lint: 0 Fehler / 35 Hinweise. Neue Test-8-Funktionen noch nicht vollständig auf dem physischen Redmi abgenommen; Budgetende, Neustart und längerer Hintergrundbetrieb bleiben separat zu prüfen.
+Gleicher Android-Testsignierer und Paket `de.spieluvia.android` wie bisher, steigender Versionscode. 136 automatisierte Androidfälle, Core-Regressionsprüfung, Release-Build und technische Policy-Prüfungen bestanden. Lint: 0 Fehler / 36 Hinweise. Neue Updateabläufe noch nicht vollständig auf einem physischen Gerät abgenommen; Budgetende, Neustart und längerer Hintergrundbetrieb bleiben separat zu prüfen. Öffentliche Store-/Berechtigungsfreigabe ist nicht bestätigt; einen Play-Vertriebsweg separat bewerten.
 
 ## Inhalt dieses Repositorys
 
-Nur ausdrücklich veröffentlichte Installationsdateien, Prüfsummen, Versionsinformationen und Anleitungen. Kein Quellcode der App, keine Signierschlüssel, Passwörter, privaten Nutzerbilder oder Nutzungsdaten. Die App selbst enthält die zum Betrieb erforderlichen Ressourcen und Texte.
+Nur ausdrücklich veröffentlichte Installationsdateien, Prüfsummen, Versionsinformationen und Anleitungen. Kein Quellcode der App, keine Signierschlüssel, Passwörter, privaten Nutzerbilder oder Nutzungsdaten. Die APK enthält ihre zum Betrieb benötigten Ressourcen und Texte.
 
 Fragen, Anregungen oder Bedenken: **spieluvia@gmail.com**.
