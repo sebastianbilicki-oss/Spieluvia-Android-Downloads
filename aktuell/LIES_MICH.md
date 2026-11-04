@@ -8,6 +8,13 @@ Hier findest du die aktuelle signierte Android-Testversion und die Updateinforma
 
 Android ab Version 8/API26, Version `0.9.0-preview+0d3facab8e0e`, Versionscode **9**. Vorschau mit echten Zeitbegrenzungsfunktionen, keine reine Demo und keine Google-Play-Freigabe. Neue Funktionen brauchen weiterhin Tests auf echten Geräten.
 
+### Prüfergebnisse und bekannte Probleme · Stand 04.11.2026
+
+- **[VirusTotal: 0/67 Erkennungen](https://www.virustotal.com/gui/file/888def7cb5f2a16b74f4e89d649ffd70b047abef9af0fe3d4065fac50ed0eb87/detection)** für die unveränderte V9-APK zum Prüfzeitpunkt. Ein unauffälliger Scan ist keine Sicherheitsgarantie oder Play-Protect-Freigabe.
+- **136 automatisierte Androidtests bestanden**, Core-Regression und Release-Build erfolgreich; Lint 0 Fehler / 36 Hinweise.
+- **[Übersicht der vier gemeldeten Handys, Ergebnisse und offenen Prüfungen](https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/blob/main/downloads/android-test-9/TESTERGEBNISSE.md)**. Die Rückmeldungen betreffen teilweise ältere App-Versionen; eine vollständige V9-Geräteabnahme liegt nicht vor.
+- **Bekannt:** Bedienungshilfedienst auf einem Redmi ausgefallen; Erstinstallation auf einem Xiaomi fehlgeschlagen; Play Protect blockiert die Installation auf einem Samsung. Google-Einspruch für V9 abgesendet, Entsperrung noch nicht bestätigt.
+
 ### Einmal auf V9 wechseln
 
 1. APK herunterladen oder ZIP entpacken und `Spieluvia.apk` öffnen.
