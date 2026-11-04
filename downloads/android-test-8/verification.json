@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "package": "de.spieluvia.android",
+  "versionCode": 8,
+  "versionName": "0.8.0-preview+67bde12142a7",
+  "apkSha256": "47a4795b6a0002dd94c44b03b64c443cda5b256d5982b8b1af44edae365c3e3f",
+  "certificateSha256": "cea146b07d0283bfac7696366e72fe1f8ffc7a865abdc128a538d5bc3639c716",
+  "signatureV2V3Verified": true,
+  "alignmentVerified": true,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "automatedAndroidTestsPassed": 106,
+  "coreRegressionPassed": true,
+  "lintErrors": 0,
+  "lintWarnings": 35,
+  "technicalPolicyPassed": true,
+  "physicalDeviceAcceptanceComplete": false,
+  "storeApproved": false
+}

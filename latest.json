@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "packageName": "de.spieluvia.android",
+  "channel": "preview",
+  "prerelease": true,
+  "versionCode": 8,
+  "versionName": "0.8.0-preview+67bde12142a7",
+  "publishedAt": "2026-11-04",
+  "minSdk": 26,
+  "targetSdk": 36,
+  "downloadUrl": "https://raw.githubusercontent.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/main/downloads/android-test-8/Spieluvia.apk",
+  "apkSha256": "47a4795b6a0002dd94c44b03b64c443cda5b256d5982b8b1af44edae365c3e3f",
+  "apkSizeBytes": 5993877,
+  "certificateSha256": "cea146b07d0283bfac7696366e72fe1f8ffc7a865abdc128a538d5bc3639c716",
+  "zipUrl": "https://raw.githubusercontent.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/main/downloads/android-test-8/Spieluvia-Android.zip",
+  "zipSha256": "444820a4e4dbf084092f009f04c79eda9c4b6939c26bf34bface04c0fcff161d",
+  "zipSizeBytes": 5987744,
+  "releaseNotes": [
+    "Sperrbutton nur im passenden freigegebenen Elternkontext.",
+    "Ganzflächiger Hintergrund, eigene Bilder und 16 Design-Farbrollen.",
+    "Skins mit Vorschau speichern, exportieren und importieren.",
+    "Ratgeber direkt offline mit 23 Publikationen, Themenfilter und antippbaren Quellen."
+  ],
+  "releasePage": "https://github.com/sebastianbilicki-oss/Spieluvia-Android-Downloads/releases/tag/android-test-8",
+  "automaticInstallation": false,
+  "appHasUpdateCheck": false
+}
