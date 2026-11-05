@@ -58,3 +58,7 @@ Gleicher Android-Testsignierer und Paket `de.spieluvia.android` wie bisher, stei
 Nur ausdrücklich veröffentlichte Installationsdateien, Prüfsummen, Versionsinformationen und Anleitungen. Kein Quellcode der App, keine Signierschlüssel, Passwörter, privaten Nutzerbilder oder Nutzungsdaten. Die APK enthält ihre zum Betrieb benötigten Ressourcen und Texte.
 
 Fragen, Anregungen oder Bedenken: **spieluvia@gmail.com**.
+
+## Entwicklungsplan & kommende Updates
+
+[**Entwicklungsplan & Updates ansehen**](web/entwicklungsplan.html) – mit Statuslegende (✓ eingebaut, ! nächstes Update, ✕ Planung), Kurzbeschreibungen und bekannten Einschränkungen. Die HTML-Seite liegt im Repository; eine öffentliche Homepage-URL erfordert eine passende Website-Veröffentlichung.
